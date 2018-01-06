@@ -1,0 +1,131 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Old Standard TT', serif;
+}
+
+#welcome, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 200px;
+}
+
+nav {
+  float: left;
+  padding: 25px;
+}
+
+nav ul li{
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Allura', cursive;
+  font-size: 30px;
+  color: #D90429;
+  padding-right: 25px;
+}
+
+img {
+  float: right;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 25px;
+}
+
+/***** MAIN *****/
+
+#welcome .full-width {
+  margin: auto;
+}
+
+#welcome h1 {
+  font-family: 'Old Standard TT', serif;
+  color: #2B2D42;
+  font-size: 120px;
+  padding: 0px;
+  margin: 20px 0px 0px 0px;
+}
+
+#welcome span {
+  font-family: 'Kristi', cursive;
+  color: #2B2D42;
+  font-size: 150px;
+}
+
+#welcome p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+  color: #2B2D42;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#welcome h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+  color: #ef233c;
+  text-align: left;
+  padding-left: 515px;
+  text-align: left;
+  margin: 175px 0px 0px 0px;
+}
+
+#welcome h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  color: #8d99ae;
+  text-align: left;
+  padding-left: 515px;
+  text-align: left;
+}
+
+/***** Contact *****/
+
+#contact .full-width {
+  padding: 20px 0px;
+}
+
+#coffee-img {
+  padding-left: 115px;
+}
+
+#contact h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+  color: #ef233c;
+  text-align: left;
+  padding-left: 350px;
+}
+
+#contact p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  color: #8D99AE;
+  text-align: right;
+}
+
+#contact span {
+  color: #242537;
+  background-color: #67707F;
+  color: #FEFEFE;
+  padding: 5px 10px 5px 10px;
+}
